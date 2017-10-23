@@ -29,3 +29,9 @@ table:  kb_knowledge
 application: Global
 Fired by : scheduled job
 description:  fires when ka is about to expire
+
+*********************
+
+ The scheduled job script is prefaced with SJ-
+ The script includes are prefaced with SI-
+ The email scripts are prefaced with ES-
