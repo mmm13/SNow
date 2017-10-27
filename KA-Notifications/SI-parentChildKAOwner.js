@@ -30,7 +30,8 @@ parentChildKAOwner.prototype = {
 				for (var i=0; i < unique_owner_group.length; i++){
 					gs.info(unique_owner_group[i]);
 				}
-			}
+			}else
+			{gs.info ('No parent found for : '+ number);}
 		}//try
 		catch(ex) {
 			var errMsg = ex.getMessage();
